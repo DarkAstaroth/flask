@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/hola', methods=['GET'])
 def hola():
-    return jsonify({"mensaje": "Hola"}), 200 
+    return jsonify({"mensaje": "Hola!"}), 200 
 
 @app.route('/')
 def index():
